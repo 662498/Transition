@@ -1,0 +1,22 @@
+body{
+	background: rgba(500, 200, 150, 500);
+}
+
+.box{
+	background: white;
+	height: 300px;
+	width: 300px;
+	top: 200px;
+	margin: auto;
+	position: relative;
+	
+	transition-property: background, border-radius, transform;
+	transition-duration: 2s;
+}
+
+
+.box:hover{
+	background: rgb(300, 100, 300);
+	border-radius: 70%;
+	transform: rotateY(360deg);
+}
